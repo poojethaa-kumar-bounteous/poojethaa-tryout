@@ -212,7 +212,9 @@ main .section.highlight {
 
 /* Layout */
 @media (width > 1900px) {
-main .hero block {
+main .hero-wrapper {
 background-color: var(--grey-color);
+text-align: center;
+width: inherit;  
 }  
 }
