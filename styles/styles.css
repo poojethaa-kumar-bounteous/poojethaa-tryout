@@ -18,6 +18,7 @@
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
+  --grey-color: #474747;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -207,4 +208,11 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+}
+
+/* Layout */
+@media (width > 1900px) {
+main .hero-wrapper {
+background-color: var(--grey-color);
+}  
 }
