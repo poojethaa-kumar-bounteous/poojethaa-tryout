@@ -212,7 +212,7 @@ main .section.highlight {
 
 /* Layout */
 @media (width > 1900px) {
-main .hero-wrapper {
+main .hero block {
 background-color: var(--grey-color);
 }  
 }
