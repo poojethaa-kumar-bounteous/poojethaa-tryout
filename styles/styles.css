@@ -212,6 +212,21 @@ main .section.highlight {
 
 /* Layout */
 @media (width > 1900px) {
+ main .hero {
+    position: relative;
+    padding: 32px;
+    min-height: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+}
+
+@media (width > 1900px) {
  main .hero-wrapper {
    background-color: var(--grey-color);
+   position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+} 
 }
