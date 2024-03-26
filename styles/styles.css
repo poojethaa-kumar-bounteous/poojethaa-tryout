@@ -70,7 +70,6 @@ body {
   display: none;
 }
 
-@media (width > 1900px) {
 /* layout */
  body .appear {
  background-color: grey;
@@ -82,7 +81,6 @@ body {
  main .section columns-container {
   background-color: white;
  }
-}
 
 body.appear {
   display: block;
