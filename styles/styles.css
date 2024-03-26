@@ -72,11 +72,16 @@ body {
 
 @media (width > 1900px) {
 /* layout */
-   body .appear {
-   max-width: 1900px;
-   margin: 0 auto;
-   background-color: var(--grey-color);
-   }
+ body .appear {
+ background-color: grey;
+ }
+ main {
+  max-width: 1900px;
+  margin: auto;
+ }
+ main .section columns-container {
+  background-color: white;
+ }
 }
 
 body.appear {
