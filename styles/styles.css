@@ -209,3 +209,12 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+/* layout */
+@media (width > 1900) {
+   body {
+   max-width: 1900px;
+   margin: 0 auto;
+   background-color: var(--grey-color);
+   }
+}  
