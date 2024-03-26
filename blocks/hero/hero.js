@@ -5,4 +5,5 @@ export default async function decorate(block) {
   hero.innerHTML = `<button type="button" aria-controls="nav" aria-label="Open navigation">
       <span class="nav-hamburger-icon"></span>
     </button>`
+  block.append(hero)
 }
