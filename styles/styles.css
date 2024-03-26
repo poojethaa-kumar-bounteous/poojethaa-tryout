@@ -211,7 +211,7 @@ main .section.highlight {
 }
 
 /* layout */
-   main {
+   body .appear {
    max-width: 1900px;
    margin: 0 auto;
    background-color: var(--grey-color);
