@@ -216,5 +216,9 @@ main .section.highlight {
    max-width: 1200px;
    margin: 0 auto;
    background-color: var(--grey-color);
+   position: absolute;
+   left: 0;
+   right: 0;
+   z-index: 2;
    }
 }  
