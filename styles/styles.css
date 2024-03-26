@@ -212,7 +212,7 @@ main .section.highlight {
 
 /* layout */
 @media (width > 1900) {
-   body {
+   body .appear {
    max-width: 1900px;
    margin: 0 auto;
    background-color: var(--grey-color);
