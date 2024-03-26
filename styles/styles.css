@@ -70,6 +70,15 @@ body {
   display: none;
 }
 
+@media (width > 1900px) {
+/* layout */
+   body .appear {
+   max-width: 1900px;
+   margin: 0 auto;
+   background-color: var(--grey-color);
+   }
+}
+
 body.appear {
   display: block;
 }
@@ -210,9 +219,4 @@ main .section.highlight {
   background-color: var(--light-color);
 }
 
-/* layout */
-   body .appear {
-   max-width: 1900px;
-   margin: 0 auto;
-   background-color: var(--grey-color);
-   }
+
