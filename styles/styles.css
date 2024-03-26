@@ -75,9 +75,9 @@ body {
  body {
  background-color: var(--grey-color) !important;
  }
- main .columns-container {
+/*  main .columns-container {
   background-color: white;
- }
+ } */
 }
  main {
   max-width: 1900px;
