@@ -75,7 +75,7 @@ body {
  body {
  background-color: var(--grey-color) !important;
  }
- main .section, .columns-container {
+ main .columns-container {
   background-color: white;
  }
 }
