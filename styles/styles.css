@@ -72,7 +72,7 @@ body {
 
 /* layout */
 @media (width > 1900px){
- body {
+ body .appear{
  background-color: var(--grey-color) !important;
  }
  main .columns-container {
