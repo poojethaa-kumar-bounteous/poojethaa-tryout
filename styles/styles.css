@@ -71,15 +71,17 @@ body {
 }
 
 /* layout */
- body .appear {
+@media (width > 1900px){
+ body {
  background-color: var(--grey-color) !important;
- }
- main {
-  max-width: 1900px;
-  margin: auto;
  }
  main .section columns-container {
   background-color: white;
+ }
+}
+ main {
+  max-width: 1900px;
+  margin: auto;
  }
 
 body.appear {
