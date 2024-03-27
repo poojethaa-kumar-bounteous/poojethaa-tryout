@@ -32,3 +32,23 @@ main .hero-container {
   width: 100%;
   height: 100%;
 }
+
+.button {
+ border-radius: 2px;
+}
+
+.text-right {
+ text-align : right;
+}
+
+.text-left {
+ text-align : left;
+}
+
+.text-center {
+ text-align : center;
+}
+
+.hero-wrapper {
+  background-image: linear-gradient(to right, hsla(256, 97%, 63%, 0.75), hsla(230, 96%, 62%, 0.65));
+}
