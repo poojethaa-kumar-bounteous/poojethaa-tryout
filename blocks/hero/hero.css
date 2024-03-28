@@ -39,7 +39,7 @@ main .hero-container {
 }
 
 @media (width > 1200) {
-  .button {
+  main .button {
   margin: 0px 130px;
   }
 }  
