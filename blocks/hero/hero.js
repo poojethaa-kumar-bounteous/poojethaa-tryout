@@ -1,4 +1,3 @@
-
 export default async function decorate(block) {
   const hero = document.createElement('div');
   const p = document.createElement('p');
@@ -6,6 +5,6 @@ export default async function decorate(block) {
   hero.append(p);
   hero.innerHTML = `<button type="button" class="button">Click here
     </button>`;
-  block.append(hero);
+  
+  block.append(footer);
 }
-
