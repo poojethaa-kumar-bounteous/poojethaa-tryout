@@ -35,17 +35,12 @@ main .hero-container {
 
 .button {
  border-radius: 2px;
-}
-
-@media (width <= 1200) {
- main .button {
-  padding: 20px; 
- }
+ padding: 20px; 
 }
 
 @media (width > 1500) {
-  main .button {
-  margin: 0px 130px;
+  .button {
+  margin: 0px 130px !important;
   }
 }  
 
