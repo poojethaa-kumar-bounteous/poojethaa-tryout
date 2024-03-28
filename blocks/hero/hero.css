@@ -35,6 +35,8 @@ main .hero-container {
 
 .button {
  border-radius: 2px;
+ margin: 0px 130px;
+ padding: 20px; 
 }
 
 .text-right {
