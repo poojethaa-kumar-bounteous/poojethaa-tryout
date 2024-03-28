@@ -37,8 +37,11 @@ main .hero-container {
  border-radius: 2px;
  padding: 20px; 
 }
-@media (max-width > 1200) {
+
+@media (width >= 1200) {
+  .button {
   margin: 0px 130px;
+  }
 }  
 
 .text-right {
