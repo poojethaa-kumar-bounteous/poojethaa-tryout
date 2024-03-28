@@ -38,7 +38,7 @@ main .hero-container {
  padding: 20px; 
 }
 
-@media (width >= 1200) {
+@media (width > 1200) {
   .button {
   margin: 0px 130px;
   }
