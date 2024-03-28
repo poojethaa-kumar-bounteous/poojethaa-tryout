@@ -36,13 +36,8 @@ main .hero-container {
 .button {
  border-radius: 2px;
  padding: 20px; 
+ margin: 0px 130px !important;
 }
-
-@media (width > 1500) {
-  .button {
-  margin: 0px 130px !important;
-  }
-}  
 
 .text-right {
  text-align : right;
