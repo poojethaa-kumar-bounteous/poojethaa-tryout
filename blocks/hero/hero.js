@@ -1,3 +1,4 @@
+/* adding the extra content in hero component */
 export default async function decorate(block) {
   const hero = document.createElement('div');
   const p = document.createElement('p');
