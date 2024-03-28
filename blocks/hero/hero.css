@@ -38,6 +38,13 @@ main .hero-container {
  padding: 20px;
 }
 
+.align-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .text-right {
  text-align : right;
 }
