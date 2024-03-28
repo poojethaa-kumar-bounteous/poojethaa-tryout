@@ -16,7 +16,7 @@ main .hero-container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  color: blue;
 }
 
 .hero picture {
@@ -31,4 +31,48 @@ main .hero-container {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.button {
+ border-radius: 2px;
+ padding: 20px;
+}
+
+.align-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.height-xs {
+ height: 465px;
+}
+
+.height-md {
+ height: 800px;
+}
+
+.height-lg {
+  height: 807px;
+}
+
+.text-right {
+ text-align : right;
+}
+
+.text-left {
+ text-align : left;
+}
+
+.text-center {
+ text-align : center;
+}
+
+.hero-wrapper {
+   background-image: linear-gradient(to right, hsla(261.96deg 19.49% 93.68% / 100%), #dedede);
+}
+
+.grad {
+   background-image: linear-gradient(to right, hsla(261.96deg 19.49% 93.68% / 95%), #dedede);
 }

@@ -18,6 +18,7 @@
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
+  --grey-color: #474747;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -68,6 +69,22 @@ body {
   background-color: var(--background-color);
   display: none;
 }
+
+/* layout */
+@media (width > 1900px){
+ body {
+ background-color: var(--grey-color) !important;
+ }
+  
+ main .columns-container {
+  background-color: white;
+ }
+}
+
+ main {
+  max-width: 1900px;
+  margin: auto;
+ }
 
 body.appear {
   display: block;
