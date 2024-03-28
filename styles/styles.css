@@ -225,10 +225,3 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
-
-@media (width >= 1200) {
-  .button {
-  margin: 0 auto;
-  }
-} 
-
