@@ -58,5 +58,5 @@ main .hero-container {
 }
 
 .hero-wrapper {
-  background-image: linear-gradient(to right, hsla(261.96deg, 19.49%, 93.68%, 50%), #dedede);
+   background-image: linear-gradient(to right, hsla(261.96deg 19.49% 93.68% / 75%), #dedede);
 }
